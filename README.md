@@ -2,7 +2,6 @@
 nagios check for established TCP connections
 
 # Requirements
-working SNMP
 
 This check should work on any host that supports the TCP-MIB.  
 
