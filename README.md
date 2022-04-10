@@ -38,4 +38,4 @@ define service {
 
 # Output
 Based on the thresholds you set in the above stanza, you will get ouput similar to the following:
-<br><a href=images/check_tcp_connections.png>
+<br><img src=images/check_tcp_connections.png>
