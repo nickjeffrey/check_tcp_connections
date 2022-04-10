@@ -27,7 +27,7 @@ define service {
        # Look at the number of TCP connections for which the current state is either ESTABLISHED or CLOSE-WAIT. 
        # .iso.identified-organization.dod.internet.mgmt.mib-2.tcp.tcpCurrEstab.0
        # .1.3.6.1.2.1.6.9.0 
-       # Syntax is  check_snmpv1!COMMUNITY!WARN!CRIT! 
+       # Syntax is  check_tcp_connections!COMMUNITY!WARN!CRIT! 
        use                             generic-24x7-service
        hostgroup_name                  all_webservers
        service_description             TCP connections
